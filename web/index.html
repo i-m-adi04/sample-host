@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .button {
+      display: inline-block;
+      border-radius: 29px;
+      background-color: black;
+      border: none;
+      color:#12e0a7;
+      text-align: center;
+      font-size: 19px;
+      padding: 10px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      margin-left: 563px ;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    </style>
+<body>
+    <h1 style="margin-right: 4px;text-align: center; font-size: 57px;">This wasn't a real attack ,but it could have been</h1>
+    <p style="margin-right: 4px;text-align: center;font-size: 25px;">Welcome to FAZ Phish Threat. In cooperation with your organization. Phish Threat performs simulated attacks just like this one to <br></br> educate employees on the dangers of phishing and social engineering.   </p>
+   
+                  <p style="margin-right: 4px;text-align: center;font-size: 25px;">Because you fell for this simulated attack, your administrator has enrolled you in a brief training. Follow the prompts below to complete <br></br> the required training.</p>
+              <a href="" >   <button class="button" style="vertical-align:middle"><span>Get Training </span></button> </a>
+
+                  <p style="margin-right: 4px;text-align: center;font-size: 25px;"><b>Full disclosure:</b> Training progress is recorded and reported to you administrator. Don't say we didn't warn you!<br></br>P.S. KEEP THIS QUITE FOR NOW. NOT EVERYONE HAS CHECKED THEIR EMAIL ,AND WE WOULDN'T WANT THEM TO HAVE AN UNFAIR ADVANTAGE </p>
+
+</body>
+</html>
